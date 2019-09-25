@@ -46,8 +46,7 @@
                       <span class="input-group-btn">
                         <button class="btn btn-default" type="button" style="font-size: 1.5rem; color: white;"><i class="fas fa-arrow-circle-right fa-2x"></i></button>
                       </span>
-                    </div><!-- /input-group -->
-                 
+                    </div>
             </div>
         </div>
     </footer>

@@ -4,11 +4,9 @@
         <h1 class="display-4 text-light">En stark stomme inom byggindustrin</h1>
         <p class="lead text-light">Vi tillverkar det mesta inom byggnadssmide till byggbranschen.</p>
         <hr class="my-4">
-        <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
         <router-link class="btn btn-secondary btn-lg" to="/" role="button">Vill du veta mer?</router-link>
       </div>
-
-</div>
+  </div>
 </template>
 
 <script>
@@ -21,13 +19,6 @@ export default {
     .jumbotron {
         position: relative;
         z-index: 1;
-        /* background: rgba(0, 0, 0, 0.2); */
-        /* background-image: url('../assets/images/jumbotron_bg.jpg'); */
-        /* background-repeat: no-repeat;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; */
-        /* filter: brightness(50%) */
     }
     .jumbotron::before {
         z-index: -1 ;

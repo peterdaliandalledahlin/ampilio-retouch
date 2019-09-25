@@ -2,15 +2,15 @@
   <div class="home">
     <Jumbotron />
     <Hero />
-    <div class="parallax1"></div>
+    <div class="parallax"></div>
     <About />
-    <div class="parallax1"></div>
+    <div class="parallax"></div>
     <Manufacturing />
-    <div class="parallax1"></div>
+    <div class="parallax"></div>
     <Referens />
-    <div class="parallax1"></div>
+    <div class="parallax"></div>
     <Partners />
-    <div class="parallax1"></div>
+    <div class="parallax"></div>
     <Work />
   </div>
 </template>
@@ -23,7 +23,6 @@ import Manufacturing from '../components/Manufacturing'
 import Referens from '../components/Referens'
 import Partners from '../components/Partners'
 import Work from '../components/Work'
-
 
 export default {
   name: "home",
@@ -40,15 +39,10 @@ export default {
 </script>
 
 <style>
-.parallax1 {
-  
+.parallax {
   background-image: url("../assets/images/parallax.jpg");
   filter: opacity(.5);
-
-  /* Set a specific height */
   min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
